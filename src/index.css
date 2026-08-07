@@ -1,5 +1,5 @@
 @import "tailwindcss";
 
 nav a.active {
- @apply text-blue-700 font-bold
+ @apply text-blue-900 font-bold
 }
