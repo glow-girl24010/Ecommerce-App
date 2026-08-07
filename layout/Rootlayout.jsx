@@ -4,10 +4,10 @@ import { Outlet } from "react-router-dom";
 
 function Rootlayout() {
   return (
-    <main>
+    <>
       <Navbar />
       <Outlet />
-    </main>
+    </>
   );
 }
 
