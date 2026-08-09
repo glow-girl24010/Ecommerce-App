@@ -1,1 +1,16 @@
 @import "tailwindcss";
+form input {
+    @apply border-2 outline-hidden px-2 py-1 w-110 rounded-xl bg-white
+}
+
+form label{
+    @apply text-xl font-semibold
+}
+
+form textarea{
+    @apply border-2 outline-hidden px-2 py-1  rounded-xl h-30
+}
+
+.drop-zone-over{
+    @apply border-2  bg-[#a7ecf3]
+}
