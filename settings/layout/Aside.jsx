@@ -18,7 +18,7 @@ export default function Aside({ page, setPage }) {
   return (
     <>
       {/* Mobile Top Navigation Bar */}
-      <div className="lg:hidden flex items-center justify-between bg-blue-600 text-white px-4 py-3 sticky top-0 z-40 shadow-md">
+      <div className="lg:hidden flex items-center justify-between  bg-blue-600 text-white py-3  px-4 sticky top-0 z-40 shadow-md">
         <div className="flex items-center gap-2.5 font-bold text-lg">
           <Settings className="w-5 h-5 animate-spin-slow" />
           <span>Settings</span>
@@ -44,7 +44,7 @@ export default function Aside({ page, setPage }) {
       <aside
         className={`
           fixed lg:sticky top-0 left-0 z-50
-          w-64 h-screen bg-blue-500 text-white p-6
+          w-64 h-[124vh] md:h-screen bg-blue-500 text-white p-6
           flex flex-col justify-between shadow-xl transition-transform duration-300 ease-in-out
           ${isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
         `}
@@ -98,7 +98,7 @@ export default function Aside({ page, setPage }) {
         </div>
 
         {/* Footer Info Box */}
-        <div className="p-3.5 bg-blue-600/60 rounded-xl border border-blue-400/30 text-xs text-blue-100 backdrop-blur-xs">
+        <div className="p-3.5 md:mb-19 bg-blue-600/60 rounded-xl border border-blue-400/30 text-xs text-blue-100 backdrop-blur-xs">
           <p className="font-semibold text-white">E-commerce Settings</p>
           <p className="text-[11px] text-blue-200 mt-0.5">Quick Navigation</p>
         </div>

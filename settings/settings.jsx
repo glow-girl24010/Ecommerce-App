@@ -6,7 +6,7 @@ import Main from './layout/Main'
 export default function Settings() {
      const [page, setPage] = useState('profile')
   return (
-    <div className='grid grid-cols-[1fr_6fr]'>
+    <div className='grid grid-cols-1 md:grid-cols-[1fr_6fr]'>
         
         <Aside page={page} setPage={setPage}/>
 
