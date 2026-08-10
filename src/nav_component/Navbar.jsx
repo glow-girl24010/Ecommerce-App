@@ -16,7 +16,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="fixed bottom-0 flex items-center justify-center w-full lg:gap-20 gap-5 bg-white border-t py-5 text-xl z-50 h-17">
+    <nav className="fixed bottom-0 flex items-center justify-center w-full lg:gap-20 gap-5 bg-white border-t py-5 text-xl z-100 h-17">
       <NavLink to="/">
         <div className="flex md:flex-row flex-col items-center justify-center md:gap-2 hover:bg-gray-200 hover:p-1 hover:px-5 rounded-xl transition-all duration-300">
           <FiHome />
